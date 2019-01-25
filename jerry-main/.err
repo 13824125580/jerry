@@ -1,0 +1,6 @@
+lib.c:23:25: fatal error: jerryscript.h: No such file or directory
+ #include "jerryscript.h"
+                         ^
+compilation terminated.
+cc1plus: fatal error: ./: No such file or directory
+compilation terminated.

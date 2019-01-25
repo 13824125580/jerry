@@ -778,7 +778,9 @@ main (int argc,
 
     ret_value = jerry_create_undefined ();
   }
-
+ 
+  extern int js_fs_init(void);
+  js_fs_init();
   if (is_repl_mode)
   {
     const char *prompt = !no_prompt ? "jerry> " : "";

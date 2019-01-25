@@ -56,7 +56,7 @@ endmacro()
 
 # Jerry standalones
 if(JERRY_CMDLINE)
-  jerry_create_executable("jerry" "main-unix.c" "cli.c")
+  jerry_create_executable("jerry" "main-unix.c" "cli.c" "lib.c")
   target_link_libraries("jerry" jerry-ext jerry-port-default)
 endif()
 
