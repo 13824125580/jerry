@@ -74,7 +74,7 @@ DECLARE_HANDLER(test1)
 int js_static_fs_init(void)
 {
     const jerry_char_t my_js_object[] = " \
-	fs = \
+	mod_test = \
 	{ \
 	}";
 
